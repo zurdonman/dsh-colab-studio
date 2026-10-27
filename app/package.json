@@ -1,0 +1,9 @@
+{
+  "name": "dsh-colab-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Panel local para gestionar Google Colab desde Termux y DSH",
+  "type": "module",
+  "scripts": {"start": "node server.mjs", "check": "node --check server.mjs"},
+  "engines": {"node": ">=20"}
+}

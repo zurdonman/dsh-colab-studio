@@ -1,0 +1,36 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Panel: logs y estado de ejecución (nunca subirlos)
+*.log
+panel.err.log
+app/prueba/*
+!app/prueba/.gitkeep
+last_exec.json
+live.log
+descarga_ok.txt
+.auth_url
+auth.json
+
+# Credenciales de Google (¡nunca al repo!)
+token.json
+token.json.bak-*
+.config/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secretos
+.env
+.env.*
